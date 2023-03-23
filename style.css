@@ -25,7 +25,8 @@ body{
 }
 
 .logo-content-img{
-    border: solid 0px #42515f;
+    border: solid 1px #42515f;
+    opacity: 1;
 }
 
 .emp-text{
@@ -102,4 +103,21 @@ label{
     border: 1px solid#ccc;
     border-radius: 4px;
     resize: vertical;
+}
+
+.profile-radio-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-radio-content>label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
 }
