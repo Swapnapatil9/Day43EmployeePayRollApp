@@ -110,7 +110,7 @@ label{
     flex-direction: row;
 }
 
-.profile-radio-content>label{
+.profile-radio-content > label{
     display: flex;
     flex-direction: row;
     align-items: center;
